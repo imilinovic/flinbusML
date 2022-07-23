@@ -30,12 +30,13 @@ for c in categories:
     print(c)
     label_transfer[c['id']] = supercategories[c['supercategory']]
 
-print(supercategories)
+print(len(supercategories))
+print(supercategories.keys())
 print('')
 print(label_transfer)
     
 
-class_num = {}
+'''class_num = {}
 
 for index, img_id in tqdm.tqdm(enumerate(img_ids), desc='change .json file to .txt file'):
     img_info = data_source.loadImgs(img_id)[0]
@@ -81,3 +82,4 @@ for index, img_id in tqdm.tqdm(enumerate(img_ids), desc='change .json file to .t
         shutil.copy('raw_data/{}'.format(img_info['file_name']), os.path.join('data/', save_name))
     else:
         os.remove(save_path)
+'''

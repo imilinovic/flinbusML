@@ -13,3 +13,6 @@ split-folders==0.4.3
 pyyaml
 opencv-python
 tensorboard
+flask
+torch==1.11.0
+torchvision
