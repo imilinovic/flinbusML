@@ -2,7 +2,7 @@ import sys, os
 
 sys.path.extend([f'./{name}' for name in os.listdir(".") if os.path.isdir(name)])
 
-import detect
+import my_detect
 
 from flask import Flask, request 
 import base64
@@ -20,7 +20,7 @@ def getAllClasses():
     with open('tmp/in.jpg', 'wb') as f:
             f.write(img)
     
-    detect.run(weights='weights/best.pt', source='tmp/in.jpg')
+    my_detect.run(weights='weights/best.pt', source='tmp/in.jpg')
 
     with open('tmp/out.jpg', 'rb') as f:
         x = base64.b64encode(f.read())
