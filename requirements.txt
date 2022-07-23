@@ -1,0 +1,15 @@
+pillow
+requests
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+graphviz
+Cython
+tqdm
+pycocotools
+split-folders==0.4.3
+pyyaml
+opencv-python
+tensorboard
