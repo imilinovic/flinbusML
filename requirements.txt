@@ -16,3 +16,5 @@ tensorboard
 flask
 torch==1.11.0
 torchvision
+gunicorn
+environs

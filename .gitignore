@@ -2,3 +2,4 @@ raw_data/
 data/
 venv/
 split_data/
+**/__pycache__/
