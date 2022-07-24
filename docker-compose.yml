@@ -1,0 +1,9 @@
+version: "3.4"
+
+
+services:
+    flinbusml:
+        build: .
+        network_mode: host
+        environment:
+          - FLINBUSML_HOST_ADDRESS=0.0.0.0:8081
