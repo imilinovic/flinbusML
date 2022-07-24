@@ -3,4 +3,4 @@ from environs import Env
 env = Env()
 env.read_env()
 
-GUNICORN_PORT = env.int("GUNICORN_PORT", 8080)
+FLINBUSML_HOST_ADDRESS = env.str("FLINBUSML_HOST_ADDRESS", "0.0.0.0:8080")

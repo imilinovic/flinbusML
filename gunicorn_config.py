@@ -1,5 +1,5 @@
 import settings
 
 
-bind = f"0.0.0.0:{settings.GUNICORN_PORT}"
+bind = f"{settings.FLINBUSML_HOST_ADDRESS}"
 workers = 2
