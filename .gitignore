@@ -3,5 +3,3 @@ data/
 venv/
 split_data/
 **/__pycache__/
-*.png
-*.jpg
